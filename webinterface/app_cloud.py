@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+# from fastapi import FastAPI
 import streamlit as st
 #import numpy as np
 from PIL import Image
@@ -57,6 +57,9 @@ h2 {color: black;
 """
 st.write(f'<style>{CSS}</style>', unsafe_allow_html=True)
 
-st.title('Composer Electronifire')
+st.title('Leukemic Cell Detective')
 
-st.markdown('### *Electronifire the big maestros from the past...*')
+
+st.markdown('### *Detecting healthy vs malignant cells from white blood cells microscopic images*')
+
+#add_bg_from_local('images/bg_app.png')
